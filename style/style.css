@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.wrapper {}
+
+.header__search-input {
+    height: 40px;
+    width: 660px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+}
+
+.icon-input {
+    background: url(../assets/img/union.svg);
+    background-position-x: 624px;
+    background-position-y: 12px;
+    padding-right: 23px;
+    background-repeat: no-repeat;
+}
