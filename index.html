@@ -13,39 +13,268 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__top top-header">
-				<div class="top-header__row">
-					<div class="header__items header-container">
+				<div class="top-header__content _container">
+					<div class="top-header__column header__column-logo">
 						<a href="/" class="top-header__logo"><img src="./assets/img/logo-header.svg"
 								alt="header-logo" /></a>
 					</div>
-					<div class="header__items header-container">
-						<input type="text" placeholder="Найти на сайте..."
-							class="header__search-input icon-input"></input>
+					<div class="top-header__column">
+						<form action="#" class="top-header__search header-search">
+							<div class="header-search__input">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value=""
+									placeholder="Найти на сайте..." class="cursor"></input></div>
+						</form>
 					</div>
-					<div class="header__items header-container">
-						<div class="top-headers__contacts">
-							<a href="tel:89996660013" class="contacts-header__phone">8 (999) 666-00-13</a>
-							<div class="contacts-header__label">Звоните с 8 до 23!</div>
+					<div class="top-header__column">
+						<div class="top-headers__contacts contacts-header">
+							<div class="contacts-header__item contacts-header__item-column">
+								<div class="header__phone">
+									<a href="tel:89996660013" class="contacts-header__phone">8 (999) 666-00-13</a></div>
+								<div class="contacts-header__label"><span>Работаем с 8 до 23!</span></div>
+							</div>
 						</div>
 					</div>
-					<div class="header__items header-container"></div>
+					<div class="top-header__column">
+						<div class="top-header__button button">
+							<a href="#">
+								<div class="button__login color-white"><span>Войти</span></div>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="header__bottom bottom-header">
-				<nav class="menu__header">
-					<ul class="menu__list">
-						<li><a href="#" class="menu__link active-link">Акции</a></li>
-						<li><a href="#" class="menu__link">Товары</a></li>
-						<li><a href="#" class="menu__link">Доставка и оплата</a></li>
-						<li><a href="#" class="menu__link">Гарантия</a></li>
-						<li><a href="#" class="menu__link">О нас</a></li>
-						<li><a href="#" class="menu__link">Контакты</a></li>
-					</ul>
-				</nav>
+				<div class="bottom-header__content _container">
+					<div class="bottom-header__column">
+						<div class="bottom-header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li><a href="#" title="Акции" class="menu__link active-link cursor">Акции</a></li>
+									<li><a href="#" title="Товары" class="menu__link cursor">Товары</a></li>
+									<li><a href="#" title="Доставка и оплата" class="menu__link cursor">Доставка и
+											оплата</a>
+									</li>
+									<li><a href="#" title="Гарантия" class="menu__link cursor">Гарантия</a></li>
+									<li><a href="#" title="О нас" class="menu__link cursor">О нас</a></li>
+									<li><a href="#" title="Контакты" class="menu__link cursor">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header>
-		<main class="page"></main>
-		<footer class="footer"></footer>
+		<cs="page">
+			<div class="page__container">
+				<div class="page__content">
+					<div class="page__products products-page">
+						<div class="product-page__content _container">
+							<div class="products-page__header">
+								<div class="products-page__title title-page">Популярные товары</div>
+							</div>
+							<div class="products-page__items items-product">
+								<div class="items-product__column">
+									<div class="item-product">
+										<div class="item-product__labels"></div>
+										<a href="#" class="item-product__image">
+											<img src="/assets/img/flower_m.jpeg" alt="flower">
+										</a>
+										<div class="item-product__body body-product">
+											<a href="#" class="body-product__title">Цветок, который стоит на столе,
+												такой
+												загадочный.</a>
+											<span class="item-product__description">А тут описание цветка, придающее ему
+												загадочности и вызывающее интерес пользователя</span>
+
+										</div>
+										<div class="item-product__footer">
+											<div class="item-product__prices">
+												<div class="item-product__old-price rub">1 499 </div>
+												<div class="item-product__price rub">799 </div>
+											</div>
+											<div class="item-product__add"><a href="#" class="add-basket"><img
+														src="/assets/img/supermarket 2.svg" alt="add-basket"></a></div>
+										</div>
+									</div>
+								</div>
+								<div class="items-product__column">
+									<div class="item-product">
+										<div class="item-product__labels"></div>
+										<a href="#" class="item-product__image">
+											<img src="/assets/img/insta-set_m.jpeg" alt="blogger-set">
+										</a>
+										<div class="item-product__body body-product">
+											<a href="#" class="body-product__title">Набор юного инстаблогера</a>
+											<span class="item-product__description">Посмотрите на него.
+												Он покажет всем какой вы классный и творческий. Главное не забыть
+												посидеть
+												на подоконнике с бокаль...</span>
+
+										</div>
+										<div class="item-product__footer">
+											<div class="item-product__prices">
+												<div class="item-product__old-price rub"></div>
+												<div class="item-product__price rub">13 666 </div>
+											</div>
+											<div class="item-product__add"><a href="#" class="add-basket"><img
+														src="/assets/img/supermarket 2.svg" alt="add-basket"></a></div>
+										</div>
+									</div>
+								</div>
+								<div class="items-product__column">
+									<div class="item-product">
+										<div class="item-product__labels"></div>
+										<a href="#" class="item-product__image">
+											<img src="/assets/img/clock_m.jpeg" alt="clock">
+										</a>
+										<div class="item-product__body body-product">
+											<a href="#" class="body-product__title">Классные деревянные минималистичные
+												часы
+												с...</a>
+											<span class="item-product__description">Все в ту же копилку загадочности
+												вашего
+												интерьера и вашей натуры</span>
+
+										</div>
+										<div class="item-product__footer">
+											<div class="item-product__prices">
+												<div class="item-product__old-price rub">2 189 </div>
+												<div class="item-product__price rub">1 899 </div>
+											</div>
+											<div class="item-product__add"><a href="#" class="add-basket"><img
+														src="/assets/img/supermarket 2.svg" alt="add-basket"></a></div>
+										</div>
+									</div>
+								</div>
+								<div class="items-product__column">
+									<div class="item-product">
+										<div class="item-product__labels"></div>
+										<a href="#" class="item-product__image">
+											<img src="/assets/img/lamp_m.jpeg" alt="lamp">
+										</a>
+										<div class="item-product__body body-product">
+											<a href="#" class="body-product__title">Лампа. Просто лампа.</a>
+											<span class="item-product__description">В паре с загадочным цветком добавит
+												загадочности вашему интерьеру</span>
+
+										</div>
+										<div class="item-product__footer">
+											<div class="item-product__prices">
+												<div class="item-product__old-price rub">2 690 </div>
+												<div class="item-product__price rub">1 789 </div>
+											</div>
+											<div class="item-product__add"><a href="#" class="add-basket"><img
+														src="/assets/img/supermarket 2.svg" alt="add-basket"></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__news news-page">
+					<div class="news-page__content _container">
+						<div class="news-page__title title-page">Новости компании
+						</div>
+						<div class="news-page__cards cards-body">
+							<ul class="cards-body__items">
+								<li class="list-item sm-card sm-card-first">
+									<div class="news__card card-content">
+										<div class="card-content__title">Цветок, который стоит на столе, такой
+											загадочный.</div>
+										<div class="card-content__description"><a href="#">А тут описание цветка,
+												придающее ему загадочности и вызывающее интерес пользователя</a>
+										</div>
+									</div>
+								</li>
+								<li class="list-item big-card big-card-first">
+									<div class="news__card card-content">
+										<div class="card-content__title">Длинный заголовок большой новости</div>
+										<div class="card-content__description"><a href="#">А тут описание цветка,
+												придающее ему загадочности и вызывающее интерес пользователя</a>
+										</div>
+									</div>
+								</li>
+								<li class="list-item big-card big-card-second">
+									<div class="news__card card-content">
+										<div class="card-content__title">А тут описание цветка, придающее ему
+											загадочности и вызывающее интерес пользователя</div>
+										<div class="card-content__description"><a href="#">А тут описание цветка,
+												придающее ему загадочности и вызывающее интерес пользователя</a>
+										</div>
+									</div>
+								</li>
+								<li class="list-item sm-card sm-card-second">
+									<div class="news__card card-content">
+										<div class="card-content__title">Цветок, который стоит на столе, такой
+											загадочный.</div>
+										<div class="card-content__description"><a href="#">А тут описание цветка,
+												придающее ему загадочности и вызывающее интерес пользователя</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="page__partners partners-page">
+					<div class="parners-page__content _container">
+						<div class="partners-page__header">
+							<div class="partners-page__title title-page">Наши партнёры</div>
+						</div>
+						<div class="partners-page__items">
+							<ul class="partners__list-items">
+								<li class="partner-item"><a href="#"><img src="/assets/img/henkel.svg" alt="henkel"></a>
+								</li>
+								<li class="partner-item"><a href="#"><img src="/assets/img/jhon_deer.svg"
+											alt="Jhon Deere"></a></li>
+								<li class="partner-item"><a href="#"><img src="/assets/img/McDonald's.svg"
+											alt="McDonald's"></a></li>
+								<li class="partner-item"><a href="#"><img src="/assets/img/ikea.svg" alt="Ikea"></a>
+								</li>
+								<li class="partner-item"><a href="#"><img src="/assets/img/reebok.svg" alt="Reebok"></a>
+								</li>
+								<li class="partner-item"><a href="#"><img src="/assets/img/nike.svg" alt="Nike"></a>
+								</li>
+								<li class="partner-item"><a href="#"><img src="/assets/img/catepillar.jpg"
+											alt="Cattepilar"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__content _container">
+			<div class="footer__items items-footer">
+				<div class="items-footer__logo">
+					<a href="/" class="footer-logo cursor"><img src="/assets/img/Group.svg" alt="logo"></a>
+				</div>
+				<div class="items-footer__social social-items">
+					<a href="https://www.youtube.com" class="social-link"><img src="/assets/img/youtube.svg"
+							alt="youtube"></a>
+					<a href="https://www.instagram.com/" class="social-link"><img src="/assets/img/insta.svg"
+							alt="instagram"></a>
+				</div>
+				<div class="items-footer__menu menu-footer">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="#">Правила</a></li>
+							<li><a href="#">Документы</a></li>
+							<li><a href="#">Политика конфиденциальности</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="items-footer__callback">
+					<div class="callback-btn button">
+						<a href="#" class="callback__button"><img src="/assets/img/phone.svg" alt="icon-phone">Заказать
+							звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 	</div>
 </body>
 
