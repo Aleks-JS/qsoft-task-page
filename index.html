@@ -22,7 +22,7 @@
 						<form action="#" class="top-header__search header-search">
 							<div class="header-search__input">
 								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value=""
-									placeholder="Найти на сайте..." class="cursor"></input></div>
+									placeholder="Найти на сайте..."></input></div>
 						</form>
 					</div>
 					<div class="top-header__column">
@@ -49,14 +49,14 @@
 						<div class="bottom-header__menu menu">
 							<nav class="menu__body">
 								<ul class="menu__list">
-									<li><a href="#" title="Акции" class="menu__link active-link cursor">Акции</a></li>
-									<li><a href="#" title="Товары" class="menu__link cursor">Товары</a></li>
-									<li><a href="#" title="Доставка и оплата" class="menu__link cursor">Доставка и
+									<li><a href="#" title="Акции" class="menu__link active-link ">Акции</a></li>
+									<li><a href="#" title="Товары" class="menu__link ">Товары</a></li>
+									<li><a href="#" title="Доставка и оплата" class="menu__link ">Доставка и
 											оплата</a>
 									</li>
-									<li><a href="#" title="Гарантия" class="menu__link cursor">Гарантия</a></li>
-									<li><a href="#" title="О нас" class="menu__link cursor">О нас</a></li>
-									<li><a href="#" title="Контакты" class="menu__link cursor">Контакты</a></li>
+									<li><a href="#" title="Гарантия" class="menu__link ">Гарантия</a></li>
+									<li><a href="#" title="О нас" class="menu__link ">О нас</a></li>
+									<li><a href="#" title="Контакты" class="menu__link ">Контакты</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -75,15 +75,20 @@
 							<div class="products-page__items items-product">
 								<div class="items-product__column">
 									<div class="item-product">
-										<div class="item-product__labels"></div>
+										<div class="item-product__labels">
+											<div class="item-product__label label-action">Акция</div>
+											<div class="item-product__label label-hit">Хит</div>
+											<div class="item-product__label label-best-price">Лучшая цена</div>
+										</div>
 										<a href="#" class="item-product__image">
 											<img src="/assets/img/flower_m.jpeg" alt="flower">
 										</a>
 										<div class="item-product__body body-product">
-											<a href="#" class="body-product__title">Цветок, который стоит на столе,
+											<a href="#" class="body-product__title">Цветок, который стоит на
+												столе,
 												такой
 												загадочный.</a>
-											<span class="item-product__description">А тут описание цветка, придающее ему
+											<span class="body-product__description">А тут описание цветка, придающее ему
 												загадочности и вызывающее интерес пользователя</span>
 
 										</div>
@@ -104,8 +109,8 @@
 											<img src="/assets/img/insta-set_m.jpeg" alt="blogger-set">
 										</a>
 										<div class="item-product__body body-product">
-											<a href="#" class="body-product__title">Набор юного инстаблогера</a>
-											<span class="item-product__description">Посмотрите на него.
+											<a href="#" class="body-product__title ">Набор юного инстаблогера</a>
+											<span class="body-product__description">Посмотрите на него.</br>
 												Он покажет всем какой вы классный и творческий. Главное не забыть
 												посидеть
 												на подоконнике с бокаль...</span>
@@ -113,6 +118,7 @@
 										</div>
 										<div class="item-product__footer">
 											<div class="item-product__prices">
+												<div class="item-product__old-price rub"></div>
 												<div class="item-product__price rub">13 666 </div>
 											</div>
 											<div class="item-product__add"><a href="#" class="add-basket"><img
@@ -127,10 +133,11 @@
 											<img src="/assets/img/clock_m.jpeg" alt="clock">
 										</a>
 										<div class="item-product__body body-product">
-											<a href="#" class="body-product__title">Классные деревянные минималистичные
+											<a href="#" class="body-product__title ">Классные деревянные
+												минималистичные
 												часы
 												с...</a>
-											<span class="item-product__description">Все в ту же копилку загадочности
+											<span class="body-product__description">Все в ту же копилку загадочности
 												вашего
 												интерьера и вашей натуры</span>
 
@@ -147,13 +154,14 @@
 								</div>
 								<div class="items-product__column">
 									<div class="item-product">
-										<div class="item-product__labels"></div>
+										<div class="item-product__labels">
+										</div>
 										<a href="#" class="item-product__image">
 											<img src="/assets/img/lamp_m.jpeg" alt="lamp">
 										</a>
 										<div class="item-product__body body-product">
-											<a href="#" class="body-product__title">Лампа. Просто лампа.</a>
-											<span class="item-product__description">В паре с загадочным цветком добавит
+											<a href="#" class="body-product__title ">Лампа. Просто лампа.</a>
+											<span class="body-product__description">В паре с загадочным цветком добавит
 												загадочности вашему интерьеру</span>
 
 										</div>
@@ -167,6 +175,10 @@
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="products-page__button">
+								<div class="button-catalog"><a href="#">Смотреть каталог<img src="/assets/img/arrow.png"
+											alt="arrow-icon"></a></div>
 							</div>
 						</div>
 					</div>
@@ -248,7 +260,7 @@
 		<div class="footer__content _container">
 			<div class="footer__items items-footer">
 				<div class="items-footer__logo">
-					<a href="/" class="footer-logo cursor"><img src="/assets/img/Group.svg" alt="logo"></a>
+					<a href="/" class="footer-logo "><img src="/assets/img/Group.svg" alt="logo"></a>
 				</div>
 				<div class="items-footer__social social-items">
 					<a href="https://www.youtube.com" class="social-link"><img src="/assets/img/youtube.svg"
